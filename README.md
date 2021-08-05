@@ -1,2 +1,2 @@
 # Project_IG
-### Projeto, replica do Instagram, aplicando conceitos de Flex Box e mobile first.
+### Projeto, replica do Instagram, aplicando conceitos de Flex Box, css BEM e mobile first.
