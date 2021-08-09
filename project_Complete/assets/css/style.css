@@ -1,27 +1,48 @@
 /*GERAL, para resetar todo espaçamento, margin,pading, etc...*/
 
-html, body, header, footer, article, div, span, p, a, figure, img, small{
+html, body, header, footer, article, div, span, p, a, figure, img, small, ul, li{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     font-size: sans-serif;
     outline: none;
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.hidden{
+    display: none;
 }
 
 /* BODY */
 body{}
 
 /* HEADER */
-header{}
+header{
+    padding: 12px 0;
+}
 header .container{}
-header .linha{}
+header .linha{
+    display: flex;
+    justify-content: space-between;
+
+}
 header .linha__coluna{}
 header a{}
 header a figure{}
 header a figure img{}
 header ul{}
-header ul li{}
+header ul li{
+    display: inline-block;
+    margin-left: 0px;
+}
 header ul li a{}
 header ul li a img{}
 
